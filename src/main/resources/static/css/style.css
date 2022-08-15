@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #e6fee6;
+}
+
+.ghost {
+	background-color: #00e68e;
+	height: 2px;
+}
+
+.subtitle {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+/* 	border: 2px solid pink; */
+}
+
+.container {
+	margin-top: 50px;
+	padding: 50px;
+	/* darker-green */
+	border: 3px solid #00e68e;
+	background-color: white;
+}
+
+.navbar{
+	display: flex;
+	margin-right: 20px;
+	margin-left: 20px;
+	flex-direction: row;
+	justify-content: space-between;
+/* 	border: 2px solid pink; */
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+/* 	border: 2px solid pink; */
+	margin: 50px;
+}
+
+.bio {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 50px;
+/* 	border: 2px solid purple; */
+}
+
+#desiredSal{
+	color: #00e68e;
+	margin-left: 50px;
+}
+
+ #yearly {
+ 	color: RoyalBlue; 
+ 	font-size: 20px;
+ }
+
+ 
+h2, h3, #isScheduled {
+	color: RoyalBlue;
+}
+
+h4 {
+	color: #00e68e;
+}
+
+
+.table {	
+	margin-top: 30px;
+}
+
+.tbody  {
+	color: #00e68e;
+}
+
+
+thead{
+	color: RoyalBlue;
+}
+
+#start {
+	color: RoyalBlue;
+	border-color: RoyalBlue;
+	
+}
+
+.navTools {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav-links, .subNumbers {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.submit, .dateBanner {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/* border: 2px solid pink; */
+	margin-bottom: 20px;
+}
+
+.applied {
+	margin: 50px;
+	padding: 10px;
+}
+
+
+
+/* NEW ROLE */
+.col-sm-2, #estSal {
+	font-weight: bold;
+	color: #00e68e;
+}
