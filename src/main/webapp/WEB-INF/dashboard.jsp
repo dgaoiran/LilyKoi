@@ -60,7 +60,7 @@
 				</tbody>
 			</table>
 			 --%>
-			
+			<h3>Submitted Applications</h3>
 			<div class="applied">
 			<table class="table table-bordered">
 				<thead>
